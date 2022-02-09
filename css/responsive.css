@@ -1,0 +1,129 @@
+@media screen and (max-width:768px) {
+* {
+
+}
+    .tudo {
+        padding:0;
+        height:100vh;
+        border:none;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        width:auto;
+    }
+
+    .first--header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 0 8px 0px;
+        background-color: #f0f2f5;
+        width: 40vw;
+        cursor:pointer;
+    }
+
+    .secondary--header {
+        background-color: #f0f2f5;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 0 8px 0px;
+        border-left:0.2px solid rgb(228, 227, 227);
+        cursor:pointer;
+        width:59.9vw;
+        overflow:hidden;
+    }
+
+    .first--notify {
+        padding: 25px 0px 25px 0px;
+        background-color: #53bdeb;
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .chatbar-infos {
+        flex-direction: column;
+        margin-left: 30%;
+    }
+
+    .chatbar--texts {
+        flex-direction: column;
+        margin-left: 8%;
+    }
+
+    .chatbar--otherphotos {
+        border-radius: 100px;
+        height: 35px;
+        margin-left: 5%;
+    }
+
+    #searchbar {
+        transition: 0.4s ease;
+        border-radius: 10px;
+        font-size: 9px;
+        font-weight: 100;
+        box-sizing: border-box;
+        background-color: #f0f2f5;
+        margin-top:5px;
+        margin-left:4vw;
+        padding: 5px 3px 5px 10px;
+        color: #86939c;
+        width: 88%;
+        text-align: center;
+        white-space: nowrap;
+        word-wrap: break-word;
+        cursor: text;
+    }
+
+    .first--notify-content {
+        display:none;
+    }
+
+    .first--notify {
+        display:none;
+    }
+
+    .secondary--textarea {
+        background-image: url('../img/whatsappbg.jpg');
+        height: 85.8%;
+        border:0.2px solid #8696a026;
+    }
+
+    .secondary--textwrite {
+        height: 6.5vh;
+        border:0.2px solid #8696a026;
+        background-color: #e2e4e5;
+        justify-content: center;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
